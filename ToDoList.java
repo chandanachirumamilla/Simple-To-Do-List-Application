@@ -37,6 +37,6 @@ public class ToDoList {
 
     public void removeTask(int id) {
         tasks.removeIf(task -> task.getId() == id);
-        System.out.println("Task " + id + " removed.");
+        System.out.println("Task " + id + " delete.");
     }
 }
